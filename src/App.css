@@ -1,18 +1,47 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
+  /* max-width: 1280px; */
   text-align: center;
+  padding: 30px;
 }
-
+/* BackgroundImage */
+#imageGiff {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 /* header */
-.header{
+.header {
   display: flex;
   gap: 100px;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
+  border: 2px solid rgb(224, 224, 224);
   padding: 5px;
-  width: 60%;
-  margin-left: 300px;
+  width: 100%;
   border-radius: 20px;
+  z-index: 100;
+  color: rgb(255, 255, 255);
+}
+
+.NavLink > h4  {
+  color: white;
+}
+
+/* About */
+.about{
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  /* gap: 200px; */
+  height: 450px;
+  padding: 20px;
+}
+.userimage{
+  border-radius: 50%;
+}
+.infoabout{
+  /* width:30rem; */
 }

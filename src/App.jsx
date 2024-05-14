@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h3>Devid React Portfolio</h3>
+      {/* <h3 style={{color:'white'}}>Devid React Portfolio</h3> */}
       <Header/>
     </>
   )

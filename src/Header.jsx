@@ -1,5 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  NavLink,
+} from "react-router-dom";
+
 import Home from "./Mainfolder/Home";
 import About from "./Mainfolder/About";
 import Services from "./Mainfolder/Services";
@@ -10,22 +16,23 @@ const Header = () => {
     <>
       <Router>
         <div className="header">
-          <Link to="/Home">
+          <NavLink className="NavLink" to="/Home">
             <h4>Home</h4>
-          </Link>
-          <Link to="/About">
+          </NavLink>
+          <NavLink className="NavLink" to="/About">
             <h4>About</h4>
-          </Link>
-          <Link to="/Services">
+          </NavLink>
+          <NavLink className="NavLink" to="/Services">
             <h4>Services</h4>
-          </Link>
-          <Link to="/Project">
+          </NavLink>
+          <NavLink className="NavLink" to="/Project">
             <h4>Project</h4>
-          </Link>
-          <Link to="/Contact">
+          </NavLink>
+          <NavLink className="NavLink" to="/Contact">
             <h4>Contact</h4>
-          </Link>
+          </NavLink>
         </div>
+      
         <Routes>
           <Route path="About" element={<About />} />
           <Route path="Home" element={<Home />} />
