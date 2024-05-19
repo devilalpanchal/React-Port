@@ -1,14 +1,11 @@
 import React from "react";
-// import { logo } from "../assets/images.png";
-import logo from './images.png'
 const About = () => {
   return (
     <>
       <div className="about">
-        <img className="userimage" src={logo} alt="" />
         <div className="infoabout">
-          <h2>Devilal Panchal</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta maxime numquam delectus voluptatum. Repellat, esse quidem. Dolores maxime vitae dolor?</p>
+          <h2> Hello I'am Devilal Panchal</h2>
+          <p className="">I'm a passionate Frontend developer. My expertise is to create and website design, graphic design and assisted in the development of front-end components and features for web applications, gaining hands-on experience with HTML, CSS, JavaScript, and front-end frameworks ReactJS and many more...</p>
         </div>
       </div>
     </>

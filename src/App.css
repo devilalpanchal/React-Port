@@ -28,20 +28,26 @@
 
 .NavLink > h4  {
   color: white;
+  border: 2px solid rgb(244, 241, 241);
+  padding: 10px;
 }
 
-/* About */
-.about{
+/* Home */
+.home{
   border: 2px solid white;
   display: flex;
   align-items: center;
-  /* gap: 200px; */
-  height: 450px;
+  justify-content: center;
+  gap: 200px;
+  height: 440px;
   padding: 20px;
+  /* padding-left: 200px; */
 }
 .userimage{
   border-radius: 50%;
 }
-.infoabout{
-  /* width:30rem; */
+.infomationUser{
+  width: 650px;
+  font-size: 25px;
+  color: rgb(199, 199, 216);
 }
